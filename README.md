@@ -1,31 +1,31 @@
-# 🧑‍💼 Employee-HR Communication Platform
+#  Employee-HR Communication Platform
 
 A centralized web-based system that streamlines communication between HR and employees by automating workflows such as leave requests, payslip/document sharing, daily work logs, and project tracking. Designed with simplicity, security, and seamless integration with Google services.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-### 🔐 Role-Based Access
+###  Role-Based Access
 - **Auto-login**: Employees are auto-assigned to their respective departments.
 - **Scoped Visibility**: HR can only view and manage employees in their own department.
 
-### 📂 Document Requests & Sharing
+###  Document Requests & Sharing
 - Employees can **request payslips**, **official documents**, or **leave**.
 - HR can **upload and send** requested documents through integrated **Google Drive**.
 
-### ⏳ Time Tracking & Daily Updates
+###  Time Tracking & Daily Updates
 - **Timer-driven Project Sheets**: Tracks project deadlines on weekdays with real-time countdown.
 - Employees must **submit daily progress updates** with optional image uploads.
 - If skipped, **automated email reminders** are sent at the specified time.
 
-### 📊 Centralized Data via Google Sheet
+###  Centralized Data via Google Sheet
 - Google Sheet acts as a lightweight and scalable **central database**.
 - Sheets are **department-specific** and updated dynamically via Google Apps Script.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Frontend  | Backend    | Database / Storage    | Others              |
 |-----------|------------|------------------------|---------------------|
@@ -36,7 +36,7 @@ A centralized web-based system that streamlines communication between HR and emp
 
 ## ⚙️ System Architecture
 
-Employee 👨‍💻 ↔️ [React Frontend] ↔️ [Node.js Backend] ↔️ Google Sheet (DB)
+Employee  ↔️ [React Frontend] ↔️ [Node.js Backend] ↔️ Google Sheet (DB)
 ↕️ ↕️
 Google Login Google Drive & Mail
 ↕️ ↕️
@@ -49,7 +49,7 @@ Auto-dept login Docs Upload, Email Reminders
 
 ---
 
-## 📌 Modules Breakdown
+##  Modules Breakdown
 
 ### 1. **Authentication**
 - Firebase authentication
@@ -76,7 +76,7 @@ Auto-dept login Docs Upload, Email Reminders
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js
